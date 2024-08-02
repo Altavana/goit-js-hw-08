@@ -80,7 +80,7 @@ galleryListEl.addEventListener("click", function (event) {
   } else {
     const instance = basicLightbox.create(
       `<div class="modal">
-        <img class="modal-img" src="${event.target.dataset.source}">
+        <img class="modal-img" src="${event.target.dataset.source}" width="1112" height="640">
       </div>`,
 
       {
